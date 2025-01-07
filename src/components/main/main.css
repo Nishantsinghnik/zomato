@@ -1,0 +1,80 @@
+.tabs{
+    white-space: nowrap;
+   display: flex;
+   align-items: center;
+   margin: 30px 5px;
+  font-size: 1.3rem;
+  color: rgb(90, 88, 88);
+
+}
+.delivery-top{
+    display: flex;
+    align-items: center;
+    
+
+}
+.delivery{
+    height:60px;
+    width: 60px;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 0.9rem;
+    border-radius: 50%;
+    background: rgb(252, 238, 192);
+}
+.delivery-img{
+   
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    
+   
+}
+.delivery{
+    margin: 0 10px;
+}
+.dining-top{
+    display: flex;
+    align-items: center;
+    margin: 0 45px ;
+}
+.dining-img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+.dining{
+    margin: 0 20px;
+}
+.night-top{
+    display: flex;
+    align-items: center;
+}
+.night-img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+.night{
+    margin: 0 20px;
+}
